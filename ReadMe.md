@@ -4,7 +4,7 @@ A powerful AI-assisted tool for mapping, translating, and comparing dataset sche
 
 ## Purpose
 
-LLM-DATASET-TRANSLATOR leverages Large Language Models to automate the tedious process of data mapping between different schemas. It helps you:
+LLM-Foreign-Data-Translator-and-Comparison-Tool leverages Large Language Models to automate the tedious process of data mapping between different schemas. It helps you:
 
 - Automatically map columns from source datasets to standardized terms
 - Create, manage, and reuse mapping dictionaries for different data domains
@@ -36,11 +36,7 @@ The core components include:
 
 ### Setup Steps
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/LLM-DATASET-TRANSLATOR.git
-   cd LLM-DATASET-TRANSLATOR
-   ```
+1. Clone the repository
 
 2. Install the required dependencies:
    ```bash
