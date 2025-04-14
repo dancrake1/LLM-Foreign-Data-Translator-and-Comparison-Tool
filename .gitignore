@@ -1,0 +1,20 @@
+/00_New_Client_Files/*.xlsx
+/env/
+/.streamlit/secrets.toml
+**/Archive/
+**/__pycache__/
+
+# Ignore everything in these directories
+Data/*
+mappedFiles/*
+metadata/*
+
+# But keep the .git_keep files
+!Data/.git_keep
+!mappedFiles/.git_keep
+!metadata/.git_keep
+
+# For nested directories like comparisons, add specific patterns
+!mappedFiles/comparisons/
+mappedFiles/comparisons/*
+!mappedFiles/comparisons/.git_keep
